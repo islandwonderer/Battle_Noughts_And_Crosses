@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BattleXO!</title>
+    <link rel="stylesheet" href="gameboardcolab.css">
+    <script src="xoxo.js"></script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="mainbody">
+        <header class="mainheader">
+            <h1>Battle Noughts and Crosses</h1>
+        </header>
+        <section class="mainsection">
+            <table class="maingrid">
+                <tr>
+                    <td id="0_0" onclick="place(this)"></td>
+                    <td id="1_0" onclick="place(this)"></td>
+                    <td id="2_0" onclick="place(this)"></td>
+                </tr>
+                <tr>
+                    <td id="0_1" onclick="place(this)"></td>
+                    <td id="1_1" onclick="place(this)"></td>
+                    <td id="2_1" onclick="place(this)"></td>
+                </tr>
+                <tr>
+                    <td id="0_2" onclick="place(this)"></td>
+                    <td id="1_2" onclick="place(this)"></td>
+                    <td id="2_2" onclick="place(this)"></td>
+                </tr>
+            </table>
+
+        </section>
+
+        <footer class="StartButton" id="PlayerChoise">
+            <input class="StupidButton" type="button" value="Ready Player One? (O)" id="PlayerOne"
+                onclick="showOptions()">
+        </footer>
+    </div>
+</body>
+
+</html>
